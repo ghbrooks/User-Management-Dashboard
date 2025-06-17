@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "George Brooks Doe",
+    "name": "George Brooks",
     "email": "george@ghbrooks.net",
     "role": "Admin"
   },
@@ -28,5 +28,11 @@
     "name": "David Brooks",
     "email": "david.brooks@example.com",
     "role": "Admin"
+  },
+  {
+    "id": 6,
+    "name": "Patch Siret",
+    "email": "patch@siret.com",
+    "role": "Moderator"
   }
 ]

@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User Management Dashboard
 
-## Getting Started
+A full-stack Next.js application for managing users with CRUD operations, built for SCSK Europe recruitment task.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **List Users**: Display users in a responsive table with sorting and search functionality
+- **Add User**: Create new users with form validation
+- **Edit User**: Update existing user information via modal forms
+- **Delete User**: Remove users with confirmation dialog
+- **Server-Side Rendering**: Initial data loaded with SSR for better performance
+- **API Routes**: RESTful API endpoints for user operations
+- **Responsive Design**: Mobile-friendly interface with Tailwind CSS
+- **Form Validation**: Client-side validation with react-hook-form
+- **Search & Filter**: Real-time search across name, email, and role
+- **Sorting**: Click column headers to sort by name, email, or role
+- **Loading States**: Visual feedback during operations
+- **Error Handling**: Comprehensive error handling and user feedback
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 14 (Pages Router)
+- **Styling**: Tailwind CSS
+- **Forms**: React Hook Form
+- **Data Storage**: JSON file (data/users.json)
+- **State Management**: React hooks (useState, useEffect)
+- **API**: Next.js API Routes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation & Setup
 
-## Learn More
+1. **Clone or extract the project files**
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server**:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open your browser** and navigate to `http://localhost:3000`
