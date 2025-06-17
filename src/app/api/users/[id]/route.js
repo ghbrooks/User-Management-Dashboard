@@ -24,7 +24,7 @@ function writeUsers(users) {
 }
 
 export async function GET(request, { params }) {
-  const userId = parseInt(params.id);
+  const userId = parseInt((await params).id);
 
   if (isNaN(userId)) {
     return Response.json({ error: "Invalid user ID" }, { status: 400 });
@@ -46,7 +46,7 @@ export async function GET(request, { params }) {
 }
 
 export async function PUT(request, { params }) {
-  const userId = parseInt(params.id);
+  const userId = parseInt((await params).id);
 
   if (isNaN(userId)) {
     return Response.json({ error: "Invalid user ID" }, { status: 400 });
@@ -118,7 +118,7 @@ export async function PUT(request, { params }) {
 }
 
 export async function DELETE(request, { params }) {
-  const userId = parseInt(params.id);
+  const userId = parseInt((await params).id);
 
   if (isNaN(userId)) {
     return Response.json({ error: "Invalid user ID" }, { status: 400 });
