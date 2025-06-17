@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "George Brooks Doe",
+    "email": "george@ghbrooks.net",
+    "role": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Josh Thomas",
+    "email": "josh.thomas@hotmail.com",
+    "role": "User"
+  },
+  {
+    "id": 3,
+    "name": "Grant Ferrett",
+    "email": "grant.ferrett@example.com",
+    "role": "User"
+  },
+  {
+    "id": 4,
+    "name": "Ian Robson",
+    "email": "ian.robson@example.com",
+    "role": "User"
+  },
+  {
+    "id": 5,
+    "name": "David Brooks",
+    "email": "david.brooks@example.com",
+    "role": "Admin"
+  }
+]
