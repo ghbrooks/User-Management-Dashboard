@@ -34,5 +34,17 @@
     "name": "George Brooks",
     "email": "george@ghbrooks.net",
     "role": "Admin"
+  },
+  {
+    "id": 8,
+    "name": "Freddie Roberts",
+    "email": "freddie@roberts.com",
+    "role": "Moderator"
+  },
+  {
+    "id": 9,
+    "name": "Boi Boi",
+    "email": "boi@h.com",
+    "role": "Moderator"
   }
 ]
